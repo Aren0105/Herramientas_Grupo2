@@ -1,0 +1,42 @@
+
+C:\Users\LAB-USR-SJL\Desktop>mkdir repo-sem13
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13>git clone https://github.com/Aren0105/Herramientas_Grupo2.git
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13>cd Herramientas_Grupo2
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13\Herramientas_Grupo2>git checkout -b hairo
+Switched to a new branch 'hairo'
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13\Herramientas_Grupo2>git status
+On branch hairo
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        HairoEspinoza.md
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13\Herramientas_Grupo2>git add .
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13\Herramientas_Grupo2>git commit -m "add: .md "
+[hairo 60af761] add: .md
+ 1 file changed, 3 insertions(+)
+ create mode 100644 HairoEspinoza.md
+
+
+//ACTIVIDAD 2
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13\Herramientas_Grupo2>git checkout -b User2
+Switched to a new branch 'User2'
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13\Herramientas_Grupo2>git status
+On branch User2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HairoEspinoza.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13\Herramientas_Grupo2>git add .
+
+C:\Users\LAB-USR-SJL\Desktop\repo-sem13\Herramientas_Grupo2>git push -u origin User2
+
